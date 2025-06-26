@@ -7,8 +7,12 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "test": "jest",
-    "cdk": "cdk"
+    "test:cdk": "jest test/cdk*.test.ts",
+    "cdk": "cdk",
+    "lint": "biome lint . --write",
+    "lint:ci": "biome lint .",
+    "format": "biome format . --write",
+    "format:ci": "biome format ."
   },
   "devDependencies": {
     "@biomejs/biome": "^2.0.5",
