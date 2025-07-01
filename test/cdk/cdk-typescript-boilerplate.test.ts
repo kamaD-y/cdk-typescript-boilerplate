@@ -2,7 +2,7 @@ import * as cdk from 'aws-cdk-lib';
 import { Aspects } from 'aws-cdk-lib';
 import { Annotations, Match, Template } from 'aws-cdk-lib/assertions';
 import { AwsSolutionsChecks } from 'cdk-nag';
-import { CdkTypescriptBoilerplateStack } from '../lib/cdk-typescript-boilerplate-stack';
+import { CdkTypescriptBoilerplateStack } from '../../lib/cdk-typescript-boilerplate-stack';
 
 test('snapshot test', () => {
   const app = new cdk.App();

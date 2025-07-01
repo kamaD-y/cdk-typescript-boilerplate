@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "test:cdk": "jest test/cdk*.test.ts",
+    "test:cdk": "jest test/cdk/*.test.ts",
     "cdk": "cdk",
     "lint": "biome lint . --write",
     "lint:ci": "biome lint .",
